@@ -109,7 +109,7 @@ El juego comienza con una vista donde se verán varias puertas cerradas, y objet
 ```mermaid
 graph LR;
     iniAvatar[Inicio del avatar]-->firstSpll[Primer hechizo]-->openDoor[Abrir la primera puerta];
-    openDoor[Abrir la primera puerta]-->explore obstacles[Explorar la siguiente parte del mapa para descubrir más libros];
+    openDoor[Abrir la primera puerta]-->exploreObstacles[Explorar la siguiente parte del mapa para descubrir más libros];
 ```
 
 #### Zona-2
