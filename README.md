@@ -54,18 +54,18 @@ La dinámica del juego consiste en aprender varios hechizos (abrir puertas, llev
 
 ```mermaid
 stateDiagram
-    [*] --> Menú-incial
-    Menú-inicial --> Instrucciones
-    Menú-inicial --> Juego
-    Juego --> Abrir-Puertas
-    Abrir-Puertas --> Aprender-hechizos
-    Aprender-hechizos --> Entregar-barriles
-    Entregar-barriles --> Conducir
+    [*] --> MenuIncial
+    MenuIncial --> Instrucciones
+    MenuIncial --> Juego
+    Juego --> AbrirPuertas
+    AbrirPuertas --> AprenderHechizos
+    AprenderHechizos --> EntregarBarriles
+    EntregarBarriles --> Conducir
     Conducir --> Victoria
-    Victoria --> Menú-final
-    Menú final --> Reinicio
+    Victoria --> MenúFinal
+    MenúFinal --> Reinicio
     Reinicio --> Juego
-    Menú-final --> Salir
+    MenúFinal --> Salir
 ```
 
 #### Objetivo
